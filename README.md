@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React code challenge.
 
-## Available Scripts
+Thank you for applying to Hivelocity.  This repo contains the basics for you code challenge. To do this challenge
+please:
+ 
+1. fork this repository.
+2. code up the design in the *challenge* section below
+3. open a PR back to the original branch
+4. send an email to the hiring manager that you have completed the challenge.
 
-In the project directory, you can run:
+Please set aside ~1 hour to complete the challenge.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.<br />
+In the project directory, run:
+
+1. `npm install`
+2. `npm start`
+
+The second command runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+You should get a blank page with the words *Hello from Hivelocity* in the upper left corner.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you are having trouble setting up the project, please email your hiring manager
 
-### `npm run build`
+## Challenge
+The challenge is to request a list of devices from our API endpoint https://core-prod.stacklocity.net/api/v2/device then render each individual device's data into components that look like this:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="example.png"/>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+To see example data [interactive api docs are located here.](https://api-docs.hivelocity.net/openapi)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Making the API Request
 
-### `npm run eject`
+You should have received an API Key in the code challenge email that linked to this project.  That api-key is to be used to authenticate requests. Requests need to be made with the header `X-API-KEY` set to the api key in your email. If needed, more info on authentication is [located in the docs.](https://api-docs.hivelocity.net/authentication)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### NPM Packages
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+At Hivelocity we use [styled-components](https://www.npmjs.com/package/styled-components) for styling and [swagger-client](https://www.npmjs.com/package/swagger-client) for requests to the v2 API. They are already installed in this project.<br />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+That said, do not feel obligated to use them, you are free to use whatever means of making requests and css styling you want. Feel free to install npm packages as necessary.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Troubleshooting
 
-## Learn More
+We respect your time, and want to ensure that the code challenge takes as little of it as possible.  If you run into issues getting the project working, or with communication to the API, please email your hiring manager.  It is better to let us solve the issue than for you to use your personal time. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# GOOD LUCK!
