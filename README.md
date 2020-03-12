@@ -27,7 +27,7 @@ You should get a blank page with the words *Hello from Hivelocity* in the upper 
 If you are having trouble setting up the project, please email your hiring manager
 
 ## Challenge
-The challenge is to request a list of devices from our API endpoint https://core-prod.stacklocity.net/api/v2/device then render each individual device's data into components that look like this:
+The challenge is to request a list of devices from our API endpoint https://core.hivelocity.net/api/v2/device then render each individual device's data into components that look like this:
 
 <img src="example.png"/>
 
