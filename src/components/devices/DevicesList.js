@@ -14,7 +14,7 @@ export default function DevicesList({ devices }) {
           <DeviceName>{device.name}</DeviceName>
           <DeviceStatusContent>
             <DeviceStatusIcon status={device.status} />
-            <DeviceStatusLabel>ON</DeviceStatusLabel>
+            <DeviceStatusLabel>{device.powerStatus}</DeviceStatusLabel>
           </DeviceStatusContent>
         </ListItem>
       ))}
