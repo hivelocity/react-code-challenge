@@ -1,10 +1,13 @@
 import React from 'react';
+import Global from 'styles/Global';
+import Devices from 'components/devices/Devices';
 
 function App() {
   return (
-    <div className="App">
-        <p>Hello from Hivelocity</p>
-    </div>
+    <>
+      <Global />
+      <Devices />
+    </>
   );
 }
 
