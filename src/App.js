@@ -1,11 +1,8 @@
-import React from 'react';
+import React from 'react'
+import DeviceList from './components/Devices/DeviceList'
 
 function App() {
-  return (
-    <div className="App">
-        <p>Hello from Hivelocity</p>
-    </div>
-  );
+    return <DeviceList />
 }
 
-export default App;
+export default App
