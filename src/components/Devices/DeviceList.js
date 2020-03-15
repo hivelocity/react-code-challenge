@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { orderBy } from 'lodash'
 import api from '../../api.js'
+// import deviceMockData from '../../mock-data.json'
 
 /* child components */
 import DeviceListItem from './DeviceListItem'
@@ -30,6 +31,7 @@ const DeviceList = () => {
         try {
             const { data } = await api.get('/device/')
             setDevices(data)
+            // setDevices(deviceMockData)
         } catch (error) {
             setHttpError(true)
         }
