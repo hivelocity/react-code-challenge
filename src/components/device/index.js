@@ -11,7 +11,9 @@ const Device = ({ name, status }) => {
   return (
     <S.Device status={status}>
       <div>{name}</div>
-      <S.Status status={status}>{status}</S.Status>
+      <S.Status data-testid={`${name}-status`} status={status}>
+        {status}
+      </S.Status>
     </S.Device>
   );
 };
