@@ -1,7 +1,7 @@
 import React from "react";
 import Swagger from "swagger-client";
-
 import Device from "./components/Device/Device";
+import {Title, ErrorMessage} from "./styles"
 
 export default class App extends React.Component {
   constructor(props) {
@@ -13,14 +13,13 @@ export default class App extends React.Component {
   }
 
   componentDidMount() {
-    Swagger.http.withCredentials = true;
     Swagger.http({
       method: "GET",
       mode: "cors",
       credentials: "include",
       url: process.env.REACT_APP_API_URL,
       headers: new Headers({
-        "X-API-KEY": process.env.REACT_APP_X_API_KEY,
+        "X-API-KEY": process.env.REACT_APP_X_API_KEY
       })
     })
       .then(res => {
@@ -32,16 +31,14 @@ export default class App extends React.Component {
       });
   }
   render() {
-    const { deviceList,hasFetchError } = this.state;
+    const { deviceList, hasFetchError } = this.state;
     return (
       <div className="App">
-        <h1>Hivelocity - Device Status</h1>
+        <Title>Hivelocity - Device Status</Title>
         {deviceList.map(device => {
           return <Device {...device} />;
         })}
-        {hasFetchError && (
-          <h2>Error</h2> 
-        )}
+        {hasFetchError && <ErrorMessage>Coudn't fetch any device data.</ErrorMessage>}
       </div>
     );
   }
