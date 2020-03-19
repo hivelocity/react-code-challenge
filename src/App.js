@@ -74,11 +74,11 @@ function App() {
   return (
     <div className="App">
       <h1>Hello from Hivelocity</h1>
-      <ul>
+      
         {deviceList.map(device => {
           return <Device {...device} />;
         })}
-      </ul>
+      
     </div>
   );
 }
