@@ -14,11 +14,16 @@
     "styled-components": "^5.0.1",
     "swagger-client": "^3.10.0"
   },
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "concurrently --kill-others \"npm start\" \"cd server && node app.js\"",
+    "postinstall": "cd server && npm install"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,5 +39,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:5000"
 }

@@ -2,7 +2,7 @@
 
 Thank you for applying to Hivelocity.  This repo contains the basics for you code challenge. To do this challenge
 please:
- 
+
 1. fork this repository.
 2. code up the design in the *challenge* section below
 3. open a PR back to the original branch
@@ -10,12 +10,18 @@ please:
 
 Please set aside ~1 hour to complete the challenge.
 
+## Important note
+
+- I was having a CORS problem when trying to query to API from browser localhost, so I created a small express server to query from there, and then my React Frontend query my own server, that's why I changed the start up script on the description, so I starts both the React application as well as the Server.
+
 ## Getting Started
 
 In the project directory, run:
 
 1. `npm install`
-2. `npm start`
+2. `cd server && cp .env.sample .env && cd ..`
+3. Setup API KEY on the newly created .env file on /server
+4. `npm run dev`
 
 The second command runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -45,6 +51,6 @@ That said, do not feel obligated to use them, you are free to use whatever means
 
 ## Troubleshooting
 
-We respect your time, and want to ensure that the code challenge takes as little of it as possible.  If you run into issues getting the project working, or with communication to the API, please email your hiring manager.  It is better to let us solve the issue than for you to use your personal time. 
+We respect your time, and want to ensure that the code challenge takes as little of it as possible.  If you run into issues getting the project working, or with communication to the API, please email your hiring manager.  It is better to let us solve the issue than for you to use your personal time.
 
 # GOOD LUCK!
