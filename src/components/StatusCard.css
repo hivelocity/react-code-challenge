@@ -1,0 +1,42 @@
+.device-name {
+    color: #565252;
+    font-weight: 300;
+    font-size: 19px;
+    margin: 0;
+}
+
+.status-card {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    max-width: 700px; /* 700 pixels wide is a good benchmark for text boxes with substantive text or content */
+}
+
+.device-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #94989A;
+}
+
+.on {
+    border-left: 4px solid #57BF6C;
+}
+
+.off {
+    border-left: 4px solid red;
+}
+
+.on-icon {
+    color: #57BF6C;
+    margin-right: 5px;
+}
+
+.off-icon {
+    color: red;
+    margin-right: 5px;
+}
