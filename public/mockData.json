@@ -1,0 +1,119 @@
+[
+  {
+    "billingInfo": null,
+    "deviceId": 19401,
+    "deviceType": "Employee Servers",
+    "displayedTags": [
+      {
+        "key": "location",
+        "value": "LAX2"
+      },
+      {
+        "key": "last_invoice_id",
+        "value": 326408
+      }
+    ],
+    "hasCancellation": false,
+    "hostname": "",
+    "ipmiAddress": null,
+    "ipmiEnabled": false,
+    "isManaged": false,
+    "isReload": null,
+    "lastInvoiceId": 326408,
+    "location": {
+      "cage_id": 28,
+      "facility": "LAX2",
+      "position": "",
+      "qr_code": "",
+      "rack": "Rack 27",
+      "row_name": "Cage 2"
+    },
+    "managedAlertsTotal": 0,
+    "monitorsTotal": 0,
+    "monitorsUp": 0,
+    "name": "Device 3",
+    "powerStatus": "ON",
+    "primaryIp": null,
+    "servicePlan": 0,
+    "status": "active",
+    "tags": []
+  },
+  {
+    "billingInfo": null,
+    "deviceId": 19400,
+    "deviceType": "Employee Servers",
+    "displayedTags": [
+      {
+        "key": "location",
+        "value": "DAL1"
+      },
+      {
+        "key": "last_invoice_id",
+        "value": 326408
+      }
+    ],
+    "hasCancellation": false,
+    "hostname": "",
+    "ipmiAddress": null,
+    "ipmiEnabled": false,
+    "isManaged": false,
+    "isReload": null,
+    "lastInvoiceId": 326408,
+    "location": {
+      "cage_id": 44,
+      "facility": "DAL1",
+      "position": "",
+      "qr_code": "",
+      "rack": "Rack 01 A+B",
+      "row_name": "Row1"
+    },
+    "managedAlertsTotal": 0,
+    "monitorsTotal": 0,
+    "monitorsUp": 0,
+    "name": "Device 2",
+    "powerStatus": "ON",
+    "primaryIp": null,
+    "servicePlan": 0,
+    "status": "active",
+    "tags": []
+  },
+  {
+    "billingInfo": null,
+    "deviceId": 19399,
+    "deviceType": "Employee Servers",
+    "displayedTags": [
+      {
+        "key": "location",
+        "value": "TPA1"
+      },
+      {
+        "key": "last_invoice_id",
+        "value": 326408
+      }
+    ],
+    "hasCancellation": false,
+    "hostname": "",
+    "ipmiAddress": null,
+    "ipmiEnabled": false,
+    "isManaged": false,
+    "isReload": null,
+    "lastInvoiceId": 326408,
+    "location": {
+      "cage_id": 12,
+      "facility": "TPA1",
+      "position": "",
+      "qr_code": "",
+      "rack": "Rack 1",
+      "row_name": "All Racks"
+    },
+    "managedAlertsTotal": 0,
+    "monitorsTotal": 0,
+    "monitorsUp": 0,
+    "name": "Device 1",
+    "powerStatus": "ON",
+    "primaryIp": null,
+    "servicePlan": 0,
+    "status": "active",
+    "tags": []
+  }
+]
