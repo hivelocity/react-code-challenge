@@ -21,8 +21,6 @@ const App = () => {
       .then(data => setData(data));
   };
 
-  console.log(data)
-
   return (
     <>
       {!data ? (
